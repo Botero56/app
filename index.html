@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de candidatos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" alt="logo" width="160">
+        <h1>SISTEMA DE VOTACIONES </h1>
+    </header>
+
+    <section class="inicio">
+        <h2>Bienvenido</h2>
+        <p>
+            selecione sus candidatos para cada cargo y luego presione enviar voto.
+        </p>
+    </section>
+    <form>
+        <section class="cargo">
+            <h2>presidencia</h2>
+
+            <label>
+                <input type="radio" name="presidente">
+                Solo cepeda en este chuzo
+            </label>
+            <label>
+                <input type="radio" name="presidente">
+                paloma
+            </label>
+            <label>
+                <input type="radio" name="presidente">
+                candidato 3
+            </label>
+        </section>
+
+        <section class="cargo">
+            <h2>Senado</h2>
+            <label>
+                <input type="radio" name="Senado">
+                Candidato A
+            </label>
+            <label>
+                <input type="radio" name="Senado">
+                Candidato B
+            </label>
+            <label>
+                <input type="radio" name="Senado">
+                Candidato C
+            </label>
+        </section>
+
+        <section class="cargo">
+            <h2>Camara</h2>
+        <label>
+            <input type="radio" name="Camara">
+            Candidato 1
+        </label>
+
+        <label>
+            <input type="radio" name="Camara">
+             Candidato 2
+        </label>
+
+         <label>
+            <input type="radio" name="Camara">
+            candidato 3
+        </label>
+        </section>
+
+        <section class="boton">
+            <a href="rvotacion.html"><button type="button">Enviar voto → </button></a>
+
+        </section>
+
+        <footer>
+            <p>
+                2026 sistema de Votaciones
+            </p>
+        </footer>
+
+       
+
+
+    </form>
+
+    <script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}
+</script>
+</body>

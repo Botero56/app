@@ -1,0 +1,123 @@
+/* Body */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #222222;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #1a3a5c;
+    color: #ffffff;
+    padding: 22px 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 3px solid #c9a84c;
+}
+
+header h1 {
+    font-size: 1.7rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+header img {
+    border-radius: 8px;
+}
+
+/* Sección Inicio */
+.inicio {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    text-align: center;
+    border-bottom: 2px solid #cccccc;
+}
+
+.inicio h2 {
+    font-size: 1.5rem;
+    color: #1a3a5c;
+    margin-bottom: 10px;
+}
+
+
+/* Formulario */
+form {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Tarjetas de Cargo */
+.cargo {
+    background-color: #ffffff;
+    border: 3px solid #cccccc;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 20px;
+   
+}
+
+.cargo h2 {
+    font-size: 1.2rem;
+    color: #33577e;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f5f5f5;
+}
+
+/* Labels de Candidatos */
+.cargo label {
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.cargo label:hover {
+    background-color: #427bc2;
+    border-color: #000a14;
+}
+
+
+
+.boton {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+button {
+    color: #f8f6f6;
+    background-color: #1a3a5c;
+    border: 1px solid #f7f9fb;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 12px 30px;
+    font-size: 1rem;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #33577e;
+}
+
+/* Footer */
+footer {
+    background-color: #1a3a5c;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 15px;
+    font-size: 0.85rem;
+    margin-top: 20px;
+    border-top: 3px solid #c9a84c;
+}

@@ -1,0 +1,223 @@
+/* Body */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #222222;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #1a3a5c;
+    color: #ffffff;
+    padding: 22px 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 3px solid #c9a84c;
+}
+
+header h1 {
+    font-size: 1.7rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+header img {
+    border-radius: 8px;
+}
+
+/* Sección Inicio */
+.inicio {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    text-align: center;
+    border-bottom: 2px solid #cccccc;
+}
+
+.inicio h2 {
+    font-size: 1.5rem;
+    color: #1a3a5c;
+    margin-bottom: 10px;
+}
+
+.inicio p {
+    margin: 0;
+}
+
+/* Main - Contenedor principal */
+main {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Tarjetas de Resultados por Cargo */
+.resultado-cargo {
+    background-color: #ffffff;
+    border: 3px solid #cccccc;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.resultado-cargo h2 {
+    font-size: 1.2rem;
+    color: #33577e;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f5f5f5;
+}
+
+/* Cada candidato con su resultado */
+.candidato {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+/* Información del candidato (nombre y porcentaje) */
+.info-candidato {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.nombre {
+    font-weight: 600;
+    color: #222222;
+    font-size: 1rem;
+}
+
+.porcentaje {
+    font-weight: 800;
+    color: #1a3a5c;
+    font-size: 1.3rem;
+}
+
+/* Barra de progreso */
+progress {
+    width: 100%;
+    height: 25px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+/* Estilo para navegadores Webkit (Chrome, Safari) */
+progress::-webkit-progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+    background-color: #1a3a5c;
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+
+/* Estilo para Firefox */
+progress::-moz-progress-bar {
+    background-color: #1a3a5c;
+    border-radius: 10px;
+}
+
+/* Número de votos */
+.votos {
+    font-size: 0.85rem;
+    color: #666;
+    font-style: italic;
+}
+
+/* Total de votos por cargo */
+.total-votos {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 2px solid #f5f5f5;
+    text-align: right;
+    color: #33577e;
+    font-size: 0.95rem;
+}
+
+/* Estadísticas Generales */
+.estadisticas {
+    background-color: #ffffff;
+    border: 3px solid #cccccc;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.estadisticas h2 {
+    font-size: 1.2rem;
+    color: #33577e;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f5f5f5;
+    text-align: center;
+}
+
+/* Grid de estadísticas */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.stat-card {
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #e0e0e0;
+}
+
+.stat-numero {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #1a3a5c;
+    margin-bottom: 5px;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+
+.acciones {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+button {
+    color: #f8f6f6;
+    background-color: #1a3a5c;
+    border: 1px solid #f7f9fb;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 12px 30px;
+    font-size: 1rem;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #33577e;
+}
+
+footer {
+    background-color: #1a3a5c;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 15px;
+    font-size: 0.85rem;
+    margin-top: 20px;
+    border-top: 3px solid #c9a84c;
+}
