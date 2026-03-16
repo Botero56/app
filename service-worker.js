@@ -1,11 +1,13 @@
 const CACHE_NAME = "votaciones-app-v1";
 
 const urlsToCache = [
+  "/",
   "index.html",
   "rvotacion.html",
   "style.css",
   "style2.css",
   "logo.png",
+  "icon-192.png",
   "manifest.json"
 ];
 
