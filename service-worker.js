@@ -6,8 +6,8 @@ const urlsToCache = [
   "./rvotacion.html",
   "./style.css",
   "./style2.css",
-  "./logo.png",
   "./icon-192.png",
+  "./icon-512.png",
   "./manifest.json"
 ];
 
