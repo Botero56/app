@@ -1,3 +1,28 @@
-self.addEventListener("install", function(event) {
-  console.log("App instalada");
+const CACHE_NAME = "votaciones-app-v1";
+
+const urlsToCache = [
+  "index.html",
+  "rvotacion.html",
+  "style.css",
+  "style2.css",
+  "logo.png",
+  "manifest.json"
+];
+
+self.addEventListener("install", event => {
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then(cache => {
+        return cache.addAll(urlsToCache);
+      })
+  );
+});
+
+self.addEventListener("fetch", event => {
+  event.respondWith(
+    caches.match(event.request)
+      .then(response => {
+        return response || fetch(event.request);
+      })
+  );
 });
