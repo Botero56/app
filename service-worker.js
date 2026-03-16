@@ -1,14 +1,13 @@
 const CACHE_NAME = "votaciones-app-v1";
 
 const urlsToCache = [
-  "./",
-  "./index.html",
-  "./rvotacion.html",
-  "./style.css",
-  "./style2.css",
-  "./icon-192.png",
-  "./icon-512.png",
-  "./manifest.json"
+  "index.html",
+  "rvotacion.html",
+  "style.css",
+  "style2.css",
+  "icon-192.png",
+  "icon-512.png",
+  "manifest.json"
 ];
 
 self.addEventListener("install", event => {
